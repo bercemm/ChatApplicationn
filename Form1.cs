@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace ChatApplicationn
 {
-    public partial class Form1 : Form
+    public partial class girisekraniform : Form
     {
-        public Form1()
+        public girisekraniform()
         {
             InitializeComponent();
+        }
+
+        private void girisyapbtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void kayitolbtn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
