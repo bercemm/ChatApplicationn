@@ -30,10 +30,10 @@
         {
             this.girisyapbtn = new System.Windows.Forms.Button();
             this.kayitolbtn = new System.Windows.Forms.Button();
-            this.epostalbl = new System.Windows.Forms.Label();
-            this.sifrelbl = new System.Windows.Forms.Label();
-            this.epostatextbox = new System.Windows.Forms.TextBox();
-            this.sifretextbox = new System.Windows.Forms.TextBox();
+            this.girisepostalbl = new System.Windows.Forms.Label();
+            this.girissifrelbl = new System.Windows.Forms.Label();
+            this.girisepostatextbox = new System.Windows.Forms.TextBox();
+            this.girissifretextbox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // girisyapbtn
@@ -56,37 +56,37 @@
             this.kayitolbtn.UseVisualStyleBackColor = true;
             this.kayitolbtn.Click += new System.EventHandler(this.kayitolbtn_Click);
             // 
-            // epostalbl
+            // girisepostalbl
             // 
-            this.epostalbl.AutoSize = true;
-            this.epostalbl.Location = new System.Drawing.Point(138, 55);
-            this.epostalbl.Name = "epostalbl";
-            this.epostalbl.Size = new System.Drawing.Size(54, 16);
-            this.epostalbl.TabIndex = 2;
-            this.epostalbl.Text = "E-posta";
+            this.girisepostalbl.AutoSize = true;
+            this.girisepostalbl.Location = new System.Drawing.Point(138, 55);
+            this.girisepostalbl.Name = "girisepostalbl";
+            this.girisepostalbl.Size = new System.Drawing.Size(54, 16);
+            this.girisepostalbl.TabIndex = 2;
+            this.girisepostalbl.Text = "E-posta";
             // 
-            // sifrelbl
+            // girissifrelbl
             // 
-            this.sifrelbl.AutoSize = true;
-            this.sifrelbl.Location = new System.Drawing.Point(138, 123);
-            this.sifrelbl.Name = "sifrelbl";
-            this.sifrelbl.Size = new System.Drawing.Size(34, 16);
-            this.sifrelbl.TabIndex = 3;
-            this.sifrelbl.Text = "Şifre";
+            this.girissifrelbl.AutoSize = true;
+            this.girissifrelbl.Location = new System.Drawing.Point(138, 123);
+            this.girissifrelbl.Name = "girissifrelbl";
+            this.girissifrelbl.Size = new System.Drawing.Size(34, 16);
+            this.girissifrelbl.TabIndex = 3;
+            this.girissifrelbl.Text = "Şifre";
             // 
-            // epostatextbox
+            // girisepostatextbox
             // 
-            this.epostatextbox.Location = new System.Drawing.Point(141, 84);
-            this.epostatextbox.Name = "epostatextbox";
-            this.epostatextbox.Size = new System.Drawing.Size(199, 22);
-            this.epostatextbox.TabIndex = 4;
+            this.girisepostatextbox.Location = new System.Drawing.Point(141, 84);
+            this.girisepostatextbox.Name = "girisepostatextbox";
+            this.girisepostatextbox.Size = new System.Drawing.Size(199, 22);
+            this.girisepostatextbox.TabIndex = 4;
             // 
-            // sifretextbox
+            // girissifretextbox
             // 
-            this.sifretextbox.Location = new System.Drawing.Point(141, 155);
-            this.sifretextbox.Name = "sifretextbox";
-            this.sifretextbox.Size = new System.Drawing.Size(199, 22);
-            this.sifretextbox.TabIndex = 5;
+            this.girissifretextbox.Location = new System.Drawing.Point(141, 155);
+            this.girissifretextbox.Name = "girissifretextbox";
+            this.girissifretextbox.Size = new System.Drawing.Size(199, 22);
+            this.girissifretextbox.TabIndex = 5;
             // 
             // girisekraniform
             // 
@@ -94,10 +94,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LavenderBlush;
             this.ClientSize = new System.Drawing.Size(485, 437);
-            this.Controls.Add(this.sifretextbox);
-            this.Controls.Add(this.epostatextbox);
-            this.Controls.Add(this.sifrelbl);
-            this.Controls.Add(this.epostalbl);
+            this.Controls.Add(this.girissifretextbox);
+            this.Controls.Add(this.girisepostatextbox);
+            this.Controls.Add(this.girissifrelbl);
+            this.Controls.Add(this.girisepostalbl);
             this.Controls.Add(this.kayitolbtn);
             this.Controls.Add(this.girisyapbtn);
             this.ForeColor = System.Drawing.SystemColors.InfoText;
@@ -112,10 +112,10 @@
 
         private System.Windows.Forms.Button girisyapbtn;
         private System.Windows.Forms.Button kayitolbtn;
-        private System.Windows.Forms.Label epostalbl;
-        private System.Windows.Forms.Label sifrelbl;
-        private System.Windows.Forms.TextBox epostatextbox;
-        private System.Windows.Forms.TextBox sifretextbox;
+        private System.Windows.Forms.Label girisepostalbl;
+        private System.Windows.Forms.Label girissifrelbl;
+        private System.Windows.Forms.TextBox girisepostatextbox;
+        private System.Windows.Forms.TextBox girissifretextbox;
     }
 }
 
